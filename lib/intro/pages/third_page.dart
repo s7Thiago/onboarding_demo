@@ -19,14 +19,14 @@ class ThirdPage extends StatelessWidget {
           'assets/images/phone3.svg',
           fit: fit,
         ),
-        Padding(
-          padding: const EdgeInsets.only(bottom: 100),
-          child: Positioned(
+        Positioned(
+          right: 0,
+          child: Padding(
+            padding: const EdgeInsets.only(bottom: 100),
             child: Image.asset(
               'assets/images/tiles/action_tile.png',
               scale: tileScale,
             ),
-            right: 0,
           ),
         ),
         Positioned(
