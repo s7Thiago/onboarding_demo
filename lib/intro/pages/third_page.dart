@@ -29,14 +29,14 @@ class ThirdPage extends StatelessWidget {
             right: 0,
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.only(top: 80, left: 100),
-          child: Positioned(
+        Positioned(
+          right: 0,
+          child: Padding(
+            padding: const EdgeInsets.only(top: 80, left: 100),
             child: Image.asset(
               'assets/images/tiles/action_tile_part.png',
               scale: tileScale * 1.1,
             ),
-            right: 0,
           ),
         ),
       ],
